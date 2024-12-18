@@ -1,0 +1,67 @@
+<svg
+                width="202"
+                height="202"
+                viewBox="0 0 202 202"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <!-- Background Circles -->
+                <circle
+                    cx="101"
+                    cy="101"
+                    r="81.67"
+                    fill="url(#paint0_linear)"
+                />
+                <circle
+                    cx="101"
+                    cy="101"
+                    r="101"
+                    fill="url(#paint1_linear)"
+                    fill-opacity="0.3"
+                />
+
+                <!-- Shield Background -->
+                <path
+                    d="M101 54.33c19.33 0 32.33 12.89 32.33 32.33v29.89c0 23.33-16.67 36.67-32.33 40c-15.67-3.33-32.33-16.67-32.33-40V86.67C68.67 67.22 81.67 54.33 101 54.33z"
+                    fill="white"
+                    stroke="url(#paint0_linear)"
+                    stroke-width="4.83"
+                />
+
+                <!-- Checkmark (Centered) -->
+                <g transform="translate(-3.22, 3.22)">
+                    <path
+                        d="M93.67 101l8.06 8.06 16.11-16.11"
+                        stroke="#F77D50"
+                        stroke-width="6.44"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </g>
+
+                <!-- Gradient Definitions -->
+                <defs>
+                    <linearGradient
+                        id="paint0_linear"
+                        x1="182.67"
+                        y1="168.2"
+                        x2="19.33"
+                        y2="61.44"
+                        gradientUnits="userSpaceOnUse"
+                    >
+                        <stop stop-color="#F77D50" />
+                        <stop offset="1" stop-color="#CE499B" />
+                    </linearGradient>
+                    <linearGradient
+                        id="paint1_linear"
+                        x1="202"
+                        y1="184.6"
+                        x2="0"
+                        y2="52.33"
+                        gradientUnits="userSpaceOnUse"
+                    >
+                        <stop stop-color="#F77D50" />
+                        <stop offset="1" stop-color="#CE499B" />
+                    </linearGradient>
+                </defs>
+            </svg>
